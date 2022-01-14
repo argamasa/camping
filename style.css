@@ -112,12 +112,16 @@ a:active {
 img {
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
+  width:426px;
+  height:240px
 }
 
 img:hover {
   -webkit-filter: none; 
   filter: none;
+  
 }
+
 
   /*
 
@@ -178,6 +182,25 @@ img:hover {
       width: 100%;
     }
 
-    @media only screen and (max-width:500px) {
+    @media only screen and (max-width:600px) {
     
+        img {
+          width: 280px;
+          height: 165px;
+      
+      }
+
+      #vid2 {
+        top: 41%;
+        left: 19%;
+    }
+      
+      
+      
+      
+      #vid3{
+        top: 73%;
+        left: 6%;
+        
+      }
     }
