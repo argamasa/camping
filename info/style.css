@@ -49,14 +49,18 @@ p{
     font-size: 2rem;
     color: white;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
     p{filter:drop-shadow(-8px 5px 4px rgba(123,203,112,0.8))
 }
 
 }
 
 
-
+b{
+  z-index: 100;
+  color: #ff0000;
+  font-style: italic;
+}
 
 :root {
   cursor: none;
