@@ -13,6 +13,7 @@ margin: 0 auto
 }
 
 
+
 p.retorno {
   /* writing-mode: vertical-rl; */
   position: fixed;
@@ -22,7 +23,11 @@ p.retorno {
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   z-index: 110;
+  background-color: blanchedalmond;
+  padding-left: 1%;
+  padding-right: .7%;
 }
+
 
 
 a {

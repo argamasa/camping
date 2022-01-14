@@ -12,6 +12,22 @@ body {
 margin: 0 auto
 }
 
+
+p.retorno {
+  /* writing-mode: vertical-rl; */
+  position: fixed;
+  top: 1px;
+  left: 1px;
+  color: #00ff00;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  z-index: 110;
+  background-color: blanchedalmond;
+  padding-left: 1%;
+  padding-right: .7%;
+}
+
+
 .vimeo-wrapper {
 position: fixed;
 top: 0;
