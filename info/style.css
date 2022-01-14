@@ -49,6 +49,12 @@ p{
     font-size: 2rem;
     color: white;
 }
+@media only screen and (max-width:600px) {
+    p{filter:drop-shadow(-8px 5px 4px rgba(123,203,112,0.8))
+}
+
+}
+
 
 
 
